@@ -10,11 +10,7 @@ graph[ordering="out"];
 5[label="", shape=circle, width=0.5];
 5--10;
 5--11;
-10[label="45",shape=circle, width=0.5];
-11[label="10",shape=circle, width=0.5];
-3[label="", shape=circle, width=0.5];
-3--6;
-3--7;
-6[label="43",shape=circle, width=0.5];
-7[label="25",shape=circle, width=0.5];
+10[label="8",shape=circle, width=0.5];
+11[label="2",shape=circle, width=0.5];
+3[label="48",shape=circle, width=0.5];
 }

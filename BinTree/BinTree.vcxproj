@@ -148,6 +148,7 @@
     <ClInclude Include="SolutionStd.h" />
     <ClInclude Include="TestData.h" />
     <ClInclude Include="TestSolution.h" />
+    <ClInclude Include="timer.h" />
     <ClInclude Include="tree.h" />
     <ClInclude Include="using_head.h" />
     <ClInclude Include="util.h" />

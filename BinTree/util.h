@@ -62,3 +62,24 @@ inline void remove_dir(const string& dirname)
             << e.what() << endl;
     }
 }
+
+
+
+template<typename T, typename Compare>
+inline void show_pq(priority_queue<T, vector<T>, Compare> data) {
+    while (data.size())
+    {
+        cout << data.top() << ' ';
+        data.pop();
+    }
+    cout << endl;
+}
+
+inline idx countBits(idx num) {
+    idx count = 0;
+    while (num != 0) {
+        count++;
+        num = num >> 1;
+    }
+    return count;
+}

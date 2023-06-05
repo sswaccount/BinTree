@@ -3,10 +3,10 @@ graph[ordering="out"];
 1[label="", shape=circle, width=0.5];
 1--2;
 1--3;
-2[label="14",shape=circle, width=0.5];
-3[label="", shape=circle, width=0.5];
-3--6;
-3--7;
-6[label="28",shape=circle, width=0.5];
-7[label="9",shape=circle, width=0.5];
+2[label="", shape=circle, width=0.5];
+2--4;
+2--5;
+4[label="3",shape=circle, width=0.5];
+5[label="27",shape=circle, width=0.5];
+3[label="10",shape=circle, width=0.5];
 }
